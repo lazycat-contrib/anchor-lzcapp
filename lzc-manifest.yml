@@ -6,11 +6,11 @@ application:
   upstreams:
     - location: /
       backend: http://anchor:3000/
-
 services:
   anchor:
     # ghcr.io/zhfahim/anchor:0.3.1
-    image: registry.lazycat.cloud/czyt/zhfahim/anchor:c9f956e5dafc81f7
+    # upstream: ghcr.io/zhfahim/anchor:0.14.0
+    image: registry.lazycat.cloud/czyt/zhfahim/anchor:339c8fdcf86ee721
     binds:
       - /lzcapp/var/data:/data
     cpu_shares: 512
