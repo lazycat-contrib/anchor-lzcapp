@@ -9,8 +9,8 @@ application:
 services:
   anchor:
     # ghcr.io/zhfahim/anchor:0.3.1
-    # upstream: ghcr.io/zhfahim/anchor:0.17.1
-    image: registry.lazycat.cloud/czyt/zhfahim/anchor:64810e6ce555fc00
+    # upstream: ghcr.io/zhfahim/anchor:0.17.2
+    image: registry.lazycat.cloud/czyt/zhfahim/anchor:eccea396d9ee5cae
     binds:
       - /lzcapp/var/data:/data
     cpu_shares: 512

@@ -1,5 +1,5 @@
 package: community.lazycat.app.anchor
-version: 0.17.1
+version: 0.17.2
 name: Anchor
 description: "Offline first, self hostable note taking application"
 license: AGPL-3.0
